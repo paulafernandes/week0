@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My CS50</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/myscss.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="row" id="rcorners_header">
+            <div class="col-md-4"></div>
+            <div class="col-md-2"><a href="#">Home</a></div>
+            <div class="col-md-2"><a href="#">Search by week</a></div>
+            <div class="col-md-2"><a href="#">Search by name</a></div>
+            <div class="col-md-2"><a href="#">Links</a></div>
+        </div>
+        <div class="row" id="rcorners_body">
+            <div class="col-md-12">
+                <details>
+                    <summary class="summaryWeek">Problem Set 1 - C</summary>
+                    <p>
+                        <ol>
+                            <li>
+                                <div>Hello</div>
+                                <div class="row">
+                                    <div class="col-md-12"><span class="InfoWeek">Info:</span> Implement a program that prints out a simple greeting to the user</div>
+                                    <div class="col-md-12"><span class="InfoWeek">Get the code for:</span> <a href="#openModalHello">hello.c</a></div>
+                                </div>
+                                <div id="openModalHello" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <h2>hello.c</h2>
+                                        <iframe id="frame" src="codefiles/hello.c" scrolling="yes"></iframe>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>Mario less comfortable</div>
+                                <div class="row">
+                                    <div class="col-md-12"><span class="InfoWeek">Info:</span> Implement a program that prints out a half-pyramid of a specified height</div>
+                                    <div class="col-md-12"><span class="InfoWeek">Get the code for:</span> <a href="#openModalMarioLessC">marioless.c</a></div>
+                                </div>
+                                <div id="openModalMarioLessC" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <h2>marioless.c</h2>
+                                        <iframe id="frame" src="codefiles/marioless.c" scrolling="yes"></iframe>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>Mario more comfortable</div>
+                                <div class="row">
+                                    <div class="col-md-12"><span class="InfoWeek">Info:</span> Implement a program that prints out a double half-pyramid of a specified height</div>
+                                    <div class="col-md-12"><span class="InfoWeek">Get the code for:</span> <a href="#openModalMarioMoreC">mariomore.c</a></div>
+                                </div>
+                                <div id="openModalMarioMoreC" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <h2>mariomore.c</h2>
+                                        <iframe id="frame" src="codefiles/mariomore.c" scrolling="yes"></iframe>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>Cash</div>
+                                <div class="row">
+                                    <div class="col-md-12"><span class="InfoWeek">Info:</span> Implement a program that calculates the minimum number of coins required to give a user change</div>
+                                    <div class="col-md-12"><span class="InfoWeek">Get the code for:</span> <a href="#openModalCash">cash.c</a></div>
+                                </div>
+                                <div id="openModalCash" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <h2>cash.c</h2>
+                                        <iframe id="frame" src="codefiles/cash.c" scrolling="yes"></iframe>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>Credit</div>
+                                <div class="row">
+                                    <div class="col-md-12"><span class="InfoWeek">Info:</span> Implement a program that determines whether a provided credit card number is valid according to Luhn’s algorithm</div>
+                                    <div class="col-md-12"><span class="InfoWeek">Get the code for:</span> <a href="#openModalCredit">credit.c</a></div>
+                                </div>
+                                <div id="openModalCredit" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <h2>credit.c</h2>
+                                        <iframe id="frame" src="codefiles/credit.c" scrolling="yes"></iframe>
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+                    </p>
+                </details>
+                <details>
+                    <summary>Problem Set 2 - Algorithms</summary>
+                    <ol>
+                        <li>
+                            <div>Caesar</div>
+                            <div class="row">
+                                <div class="col-md-12"><span class="InfoWeek">Info:</span> Implement a program that encrypts messages using Caesar’s cipher</div>
+                                <div class="col-md-12"><span class="InfoWeek">Get the code for:</span> <a href="#openModalCaesar">caesar.c</a></div>
+                            </div>
+                            <div id="openModalCaesar" class="modalDialog">
+                                <div>
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h2>caesar.c</h2>
+                                    <iframe id="frame" src="codefiles/caesar.c" scrolling="yes"></iframe>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>Vigenere</div>
+                            <div class="row">
+                                <div class="col-md-12"><span class="InfoWeek">Info:</span> Implement a program that encrypts messages using Vigenère’s cipher</div>
+                                <div class="col-md-12"><span class="InfoWeek">Get the code for:</span> <a href="#openModalVigenere">vigenere.c</a></div>
+                            </div>
+                            <div id="openModalVigenere" class="modalDialog">
+                                <div>
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h2>vigenere.c</h2>
+                                    <iframe id="frame" src="codefiles/vigenere.c" scrolling="yes"></iframe>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </details>
+                <details>
+                    <summary>Problem Set 3 - Memory</summary>
+                    <ol>
+                        <li>
+                            <div>Music</div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <span class="InfoWeek">Info:</span>
+                                    <ol>
+                                        <li>Learn to read sheet music.</li>
+                                        <li>Learn to read code.</li>
+                                        <li>Convert musical notes to frequencies.</li>
+                                        <li>Synthesize songs.</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-12"><span class="InfoWeek">Get the code for:</span> <a href="#openModalMusic">caesar.c</a></div>
+                            </div>
+                            <div id="openModalCaesar" class="modalDialog">
+                                <div>
+                                    <a href="#close" title="Close" class="close">X</a>
+                                    <h2>caesar.c</h2>
+                                    <iframe id="frame" src="codefiles/caesar.c" scrolling="yes"></iframe>
+                                </div>
+                            </div>
+                        </li>
+                </details>
+                <details>
+                    <summary>Week 4 - Data Structures</summary>
+                    <p>This is where you put the details that are shown once expanded</p>
+                </details>
+                <details>
+                    <summary>Week 5 - HTTP</summary>
+                    <p>This is where you put the details that are shown once expanded</p>
+                </details>
+                <details>
+                    <summary>Week 6 - Dynamic Programming + Python</summary>
+                    <p>This is where you put the details that are shown once expanded</p>
+                </details>
+                <details>
+                    <summary>Week 7 - Python, continued</summary>
+                    <p>This is where you put the details that are shown once expanded</p>
+                </details>
+                <details>
+                    <summary>Week 8 - SQL</summary>
+                    <p>This is where you put the details that are shown once expanded</p>
+                </details>
+                <details>
+                    <summary>Week 9 - JavaScript</summary>
+                    <p>This is where you put the details that are shown once expanded</p>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+

@@ -6,7 +6,7 @@
     <ProjectGuid>09e0a813-8a3a-49a0-a6ca-11190656de43</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>index.html</StartupFile>
+    <StartupFile>index_.html</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,22 +28,39 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="css\" />
+    <Folder Include="images\" />
+    <Folder Include="codefiles\" />
     <Folder Include="scss\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="codefiles\cash.c" />
+    <Content Include="codefiles\hello.c" />
+    <Content Include="codefiles\marioless.c" />
+    <Content Include="codefiles\mariomore.c" />
     <Content Include="compilerconfig.json.defaults">
       <SubType>Content</SubType>
       <DependentUpon>compilerconfig.json</DependentUpon>
     </Content>
-    <Content Include="css\teste.css" />
-    <Content Include="css\teste.min.css" />
-    <Content Include="scss\teste.css" />
-    <Content Include="scss\teste.min.css" />
-    <None Include="compilerconfig.json" />
+    <Content Include="css\myscss.css" />
+    <Content Include="css\myscss.min.css" />
+    <Content Include="images\if_icon-23-file-c_315895.png" />
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="scss\teste.scss">
+    <Content Include="README.txt">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="scss\myscss.scss">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="searchweek.html">
+      <SubType>Code</SubType>
+    </Content>
+    <None Include="compilerconfig.json" />
+    <Content Include="index_.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="scss\teste_.scss">
       <SubType>Code</SubType>
     </Content>
   </ItemGroup>
