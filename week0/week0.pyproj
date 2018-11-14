@@ -33,10 +33,19 @@
     <Folder Include="scss\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="codefiles\caesar.c" />
     <Content Include="codefiles\cash.c" />
+    <Content Include="codefiles\credit.c" />
+    <Content Include="codefiles\dictionary.c" />
+    <Content Include="codefiles\dictionary.h" />
     <Content Include="codefiles\hello.c" />
     <Content Include="codefiles\marioless.c" />
     <Content Include="codefiles\mariomore.c" />
+    <Content Include="codefiles\music.c" />
+    <Content Include="codefiles\recover.c" />
+    <Content Include="codefiles\resize.c" />
+    <Content Include="codefiles\vigenere.c" />
+    <Content Include="codefiles\whodunit.c" />
     <Content Include="compilerconfig.json.defaults">
       <SubType>Content</SubType>
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -63,6 +72,19 @@
     <Content Include="scss\teste_.scss">
       <SubType>Code</SubType>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="codefiles\application.py" />
+    <Compile Include="codefiles\caesar.py" />
+    <Compile Include="codefiles\cash.py" />
+    <Compile Include="codefiles\credit.py" />
+    <Compile Include="codefiles\finance.py" />
+    <Compile Include="codefiles\marioless.py" />
+    <Compile Include="codefiles\mariomore.py" />
+    <Compile Include="codefiles\mashup.py" />
+    <Compile Include="codefiles\similaritiesless.py" />
+    <Compile Include="codefiles\similaritiesmore.py" />
+    <Compile Include="codefiles\vigenere.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 

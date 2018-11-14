@@ -76,13 +76,18 @@
   font-weight: bold;
   font-size: 17px; }
 
+details {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
 summary {
   color: #6C5B7B;
   font-weight: bold;
-  background-color: #e0d6ff; }
+  background-color: #e0d6ff;
+  padding-left: 20px; }
 
 ol {
-  background-color: #ece6ff; }
+  background-color: #ffeed2; }
 
 iframe {
   width: 600px;
